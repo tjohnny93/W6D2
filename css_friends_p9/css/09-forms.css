@@ -1,0 +1,13 @@
+/* PHASE 9: Forms */
+.form {
+  margin: 0 0 20px 0;
+  background-color: lightgray;
+}
+
+.form-thumb {
+  float: left;
+}
+
+.thumb {
+  display: block;
+}
