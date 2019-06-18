@@ -104,13 +104,20 @@
         <a href="#" class="form-thumb thumb" title="Sennacy">
           <img src="images/cat.jpg" alt="">
         </a>
-        <label> Post Title
-          <input type="text" >
-        </label>
-        <label> Post Body
-          <textarea cols="30" rows="10"></textarea>
-        </label>
-          <input type="submit">
+        <fieldset class="form-fieldset">
+          <div class="input">
+            <label for="form-title">Post Title</label>
+            <input id="form-title" type="text" value="Wut?">
+            
+            <label for="form-body">Post Body</label>
+            <textarea id="form-body" cols="30" rows="10">Cute.</textarea>
+            
+          </div>
+          <div class="submit">
+              <button>Post To Wall</button>
+          </div>
+          
+        </fieldset>
       </form>
     </section>
   </main>
